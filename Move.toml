@@ -1,0 +1,24 @@
+[package]
+name = "rewards"
+edition = "2024.beta"
+
+[dependencies.Sui]
+git = "https://github.com/MystenLabs/sui.git"
+subdir = "crates/sui-framework/packages/sui-framework"
+rev = "framework/testnet"
+
+[dependencies.artinals]
+git = "https://github.com/artfilabs/artinalsprotocolv1.git"
+rev = "main"
+subdir = "."
+
+
+[addresses]
+rewards = "0x0"
+
+
+[dev-dependencies]
+# none
+
+[dev-addresses]
+# none
